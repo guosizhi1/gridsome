@@ -1,5 +1,5 @@
 <template>
-  <Layout ref="layout">
+  <Layout ref="layout" :style="{ color: $page.post.color }">
     <div class="container">
       <div class="project-header">
         <h1 class="project-title-p">{{ $page.post.title }}</h1>
@@ -44,6 +44,7 @@ query($id: ID!){
 <script>
 export default {
   created() {
+    console.log(this.$page.post.color)
     // document
     // .querySelector('body')
     // .setAttribute('style', `color:${this.$page.post.color};`)
