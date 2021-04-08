@@ -45,11 +45,11 @@ query($id: ID!){
 export default {
   created() {
     document
-      .querySelector('body')
-      .setAttribute('style', `color:${this.$page.post.color};`)
+    // .querySelector('body')
+    // .setAttribute('style', `color:${this.$page.post.color};`)
   },
   destroyed() {
-    document.querySelector('body').setAttribute('style', `color:"";`)
+    // document.querySelector('body').setAttribute('style', `color:"";`)
   },
 }
 </script>
