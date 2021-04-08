@@ -44,7 +44,7 @@ query($id: ID!){
 <script>
 export default {
   created() {
-    document
+    // document
     // .querySelector('body')
     // .setAttribute('style', `color:${this.$page.post.color};`)
   },
