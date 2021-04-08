@@ -1,0 +1,14 @@
+{
+  "name": "gridsome-demo",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "@gridsome/source-strapi": "^0.2.0",
+    "dayjs": "^1.10.4",
+    "gridsome": "^0.7.0"
+  }
+}
