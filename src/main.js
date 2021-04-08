@@ -11,7 +11,7 @@ export default function (Vue, { router, head, isClient }) {
   Vue.mixin({
     data () {
       return {
-        GRIDSOME_API: "http://106.75.47.105:1336"
+        GRIDSOME_API: process.env.GRIDSOME_API_URL
       }
     }
   })
